@@ -1,933 +1,933 @@
 === Adaptive Scheduler Report ===
-Generated on: 2025-05-24 12:37:57.142691
+Generated on: 2025-05-24 12:41:58.401206
 
 PID: 1001
   Pid: 1001
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.18
-  Exec State: running
-  Predicted Latency Ms: 0.64
-  Resource Allocation: 10.3
-  Io Priority: 8
-  Network Bandwidth Mb: 34.2
-  Cache Efficiency: 69.06
-  Thermal Threshold: 80.62
-  Power Efficiency: 7982.39
-  Deadline Compliance: True
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 1.33
+  Exec State: ready
+  Predicted Latency Ms: 0.71
+  Resource Allocation: 22.68
+  Io Priority: 6
+  Network Bandwidth Mb: 154.6
+  Cache Efficiency: 91.03
+  Thermal Threshold: 60.13
+  Power Efficiency: 33473.29
+  Deadline Compliance: False
   Dependency Status: False
-  Error Impact: 3.62
+  Error Impact: 3.0
   Retry Success: True
-  Queue Delay Ms: 20
-  Preempt Frequency: 0.4370629370629371
-  Affinity Score: 0.06666666666666667
-  Execution Window Ms: 11816
-  Load Factor: 0.54
-  Instruction Per Cycle: 0.3771
-  Memory Pressure: 39.5
-  Io Throughput Mb: 34.02
-  Network Latency Ms: 1.65
+  Queue Delay Ms: 70
+  Preempt Frequency: 0.8849557522123894
+  Affinity Score: 0.8666666666666667
+  Execution Window Ms: 11565
+  Load Factor: 1.61
+  Instruction Per Cycle: 0.4188
+  Memory Pressure: 43.5
+  Io Throughput Mb: 24.47
+  Network Latency Ms: 0.7
   Thermal Risk: False
   Power Surge: False
   Critical Path: False
-  Dynamic Adjustment: False
+  Dynamic Adjustment: True
 
 PID: 1002
   Pid: 1002
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.29
-  Exec State: pending
-  Predicted Latency Ms: 0.7
-  Resource Allocation: 60.07
-  Io Priority: 1
-  Network Bandwidth Mb: 93.7
-  Cache Efficiency: 82.0
-  Thermal Threshold: 77.5
-  Power Efficiency: 43066.26
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 1.15
+  Exec State: running
+  Predicted Latency Ms: 0.62
+  Resource Allocation: 36.55
+  Io Priority: 9
+  Network Bandwidth Mb: 36.4
+  Cache Efficiency: 40.07
+  Thermal Threshold: 70.5
+  Power Efficiency: 18588.84
   Deadline Compliance: True
   Dependency Status: False
-  Error Impact: 4.82
+  Error Impact: 1.16
   Retry Success: True
-  Queue Delay Ms: 20
-  Preempt Frequency: 2.1633315305570577
-  Affinity Score: 0.8666666666666667
-  Execution Window Ms: 3491
-  Load Factor: 0.31
-  Instruction Per Cycle: 0.3201
-  Memory Pressure: 153.8
-  Io Throughput Mb: 11.85
-  Network Latency Ms: 1.49
+  Queue Delay Ms: 170
+  Preempt Frequency: 1.8885741265344667
+  Affinity Score: 0.0
+  Execution Window Ms: 13068
+  Load Factor: 0.58
+  Instruction Per Cycle: 0.0767
+  Memory Pressure: 70.2
+  Io Throughput Mb: 71.84
+  Network Latency Ms: 1.05
   Thermal Risk: False
   Power Surge: False
   Critical Path: False
-  Dynamic Adjustment: False
+  Dynamic Adjustment: True
 
 PID: 1003
   Pid: 1003
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 0.71
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 0.77
   Exec State: pending
-  Predicted Latency Ms: 0.4
-  Resource Allocation: 37.88
+  Predicted Latency Ms: 0.43
+  Resource Allocation: 95.95
   Io Priority: 2
-  Network Bandwidth Mb: 137.7
-  Cache Efficiency: 51.5
-  Thermal Threshold: 53.12
-  Power Efficiency: 27413.23
+  Network Bandwidth Mb: 114.6
+  Cache Efficiency: 84.95
+  Thermal Threshold: 59.88
+  Power Efficiency: 38147.85
   Deadline Compliance: True
   Dependency Status: False
-  Error Impact: 4.21
+  Error Impact: 4.34
   Retry Success: True
-  Queue Delay Ms: 20
-  Preempt Frequency: 1.6597510373443982
-  Affinity Score: 0.4666666666666667
-  Execution Window Ms: 7266
-  Load Factor: 0.34
-  Instruction Per Cycle: 0.237
+  Queue Delay Ms: 190
+  Preempt Frequency: 1.3449899125756557
+  Affinity Score: 0.8
+  Execution Window Ms: 13525
+  Load Factor: 0.35
+  Instruction Per Cycle: 0.2858
+  Memory Pressure: 245.6
+  Io Throughput Mb: 17.81
+  Network Latency Ms: 0.31
+  Thermal Risk: False
+  Power Surge: False
+  Critical Path: True
+  Dynamic Adjustment: True
+
+PID: 1004
+  Pid: 1004
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 0.92
+  Exec State: ready
+  Predicted Latency Ms: 0.51
+  Resource Allocation: 4.64
+  Io Priority: 2
+  Network Bandwidth Mb: 100.9
+  Cache Efficiency: 43.28
+  Thermal Threshold: 96.0
+  Power Efficiency: 45121.61
+  Deadline Compliance: False
+  Dependency Status: False
+  Error Impact: 2.06
+  Retry Success: False
+  Queue Delay Ms: 100
+  Preempt Frequency: 0.3665689149560117
+  Affinity Score: 0.7333333333333333
+  Execution Window Ms: 15029
+  Load Factor: 0.05
+  Instruction Per Cycle: 0.0939
+  Memory Pressure: 8.9
+  Io Throughput Mb: 8.89
+  Network Latency Ms: 16.48
+  Thermal Risk: True
+  Power Surge: False
+  Critical Path: False
+  Dynamic Adjustment: True
+
+PID: 1005
+  Pid: 1005
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 0.81
+  Exec State: ready
+  Predicted Latency Ms: 0.46
+  Resource Allocation: 95.73
+  Io Priority: 4
+  Network Bandwidth Mb: 75.8
+  Cache Efficiency: 69.68
+  Thermal Threshold: 74.88
+  Power Efficiency: 46152.53
+  Deadline Compliance: False
+  Dependency Status: False
+  Error Impact: 3.36
+  Retry Success: False
+  Queue Delay Ms: 40
+  Preempt Frequency: 2.0876826722338206
+  Affinity Score: 0.8666666666666667
+  Execution Window Ms: 4653
+  Load Factor: 0.54
+  Instruction Per Cycle: 0.2652
+  Memory Pressure: 147.0
+  Io Throughput Mb: 20.27
+  Network Latency Ms: 0.17
+  Thermal Risk: False
+  Power Surge: False
+  Critical Path: False
+  Dynamic Adjustment: True
+
+PID: 1006
+  Pid: 1006
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 1.13
+  Exec State: running
+  Predicted Latency Ms: 0.61
+  Resource Allocation: 17.11
+  Io Priority: 6
+  Network Bandwidth Mb: 35.6
+  Cache Efficiency: 78.23
+  Thermal Threshold: 99.38
+  Power Efficiency: 7700.12
+  Deadline Compliance: True
+  Dependency Status: False
+  Error Impact: 3.1
+  Retry Success: True
+  Queue Delay Ms: 180
+  Preempt Frequency: 1.5052684395383842
+  Affinity Score: 0.13333333333333333
+  Execution Window Ms: 11953
+  Load Factor: 0.35
+  Instruction Per Cycle: 0.2166
+  Memory Pressure: 43.8
+  Io Throughput Mb: 45.48
+  Network Latency Ms: 0.02
+  Thermal Risk: True
+  Power Surge: True
+  Critical Path: True
+  Dynamic Adjustment: True
+
+PID: 1007
+  Pid: 1007
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 1.44
+  Exec State: running
+  Predicted Latency Ms: 0.77
+  Resource Allocation: 64.77
+  Io Priority: 4
+  Network Bandwidth Mb: 86.7
+  Cache Efficiency: 85.08
+  Thermal Threshold: 89.5
+  Power Efficiency: 19710.47
+  Deadline Compliance: True
+  Dependency Status: True
+  Error Impact: 4.02
+  Retry Success: False
+  Queue Delay Ms: 190
+  Preempt Frequency: 0.281135788585887
+  Affinity Score: 0.8666666666666667
+  Execution Window Ms: 8149
+  Load Factor: 1.86
+  Instruction Per Cycle: 0.3656
+  Memory Pressure: 165.8
+  Io Throughput Mb: 11.26
+  Network Latency Ms: 0.71
+  Thermal Risk: True
+  Power Surge: False
+  Critical Path: True
+  Dynamic Adjustment: True
+
+PID: 1008
+  Pid: 1008
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 0.64
+  Exec State: pending
+  Predicted Latency Ms: 0.37
+  Resource Allocation: 50.51
+  Io Priority: 2
+  Network Bandwidth Mb: 69.2
+  Cache Efficiency: 76.05
+  Thermal Threshold: 94.12
+  Power Efficiency: 29224.57
+  Deadline Compliance: True
+  Dependency Status: False
+  Error Impact: 1.71
+  Retry Success: True
+  Queue Delay Ms: 60
+  Preempt Frequency: 0.0
+  Affinity Score: 0.6
+  Execution Window Ms: 4685
+  Load Factor: 0.2
+  Instruction Per Cycle: 0.2931
   Memory Pressure: 97.0
-  Io Throughput Mb: 6.44
+  Io Throughput Mb: 1.37
+  Network Latency Ms: 3.58
+  Thermal Risk: True
+  Power Surge: False
+  Critical Path: False
+  Dynamic Adjustment: True
+
+PID: 1009
+  Pid: 1009
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 0.77
+  Exec State: running
+  Predicted Latency Ms: 0.43
+  Resource Allocation: 64.36
+  Io Priority: 6
+  Network Bandwidth Mb: 11.9
+  Cache Efficiency: 83.51
+  Thermal Threshold: 52.37
+  Power Efficiency: 12041.89
+  Deadline Compliance: False
+  Dependency Status: False
+  Error Impact: 0.55
+  Retry Success: True
+  Queue Delay Ms: 50
+  Preempt Frequency: 1.0135135135135136
+  Affinity Score: 0.6666666666666666
+  Execution Window Ms: 8831
+  Load Factor: 0.34
+  Instruction Per Cycle: 1.9101
+  Memory Pressure: 98.9
+  Io Throughput Mb: 16.76
+  Network Latency Ms: 0.06
+  Thermal Risk: False
+  Power Surge: False
+  Critical Path: False
+  Dynamic Adjustment: True
+
+PID: 1010
+  Pid: 1010
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 0.63
+  Exec State: running
+  Predicted Latency Ms: 0.37
+  Resource Allocation: 84.84
+  Io Priority: 6
+  Network Bandwidth Mb: 77.8
+  Cache Efficiency: 57.24
+  Thermal Threshold: 74.75
+  Power Efficiency: 15300.41
+  Deadline Compliance: True
+  Dependency Status: False
+  Error Impact: 3.43
+  Retry Success: False
+  Queue Delay Ms: 160
+  Preempt Frequency: 1.8867924528301885
+  Affinity Score: 0.7333333333333333
+  Execution Window Ms: 3119
+  Load Factor: 0.26
+  Instruction Per Cycle: 0.6948
+  Memory Pressure: 325.8
+  Io Throughput Mb: 38.37
+  Network Latency Ms: 2.96
+  Thermal Risk: False
+  Power Surge: False
+  Critical Path: False
+  Dynamic Adjustment: True
+
+PID: 1011
+  Pid: 1011
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 1.29
+  Exec State: ready
+  Predicted Latency Ms: 0.7
+  Resource Allocation: 69.88
+  Io Priority: 9
+  Network Bandwidth Mb: 117.7
+  Cache Efficiency: 90.5
+  Thermal Threshold: 60.88
+  Power Efficiency: 27871.99
+  Deadline Compliance: True
+  Dependency Status: False
+  Error Impact: 0.86
+  Retry Success: False
+  Queue Delay Ms: 80
+  Preempt Frequency: 5.7915057915057915
+  Affinity Score: 0.2
+  Execution Window Ms: 8526
+  Load Factor: 1.44
+  Instruction Per Cycle: 1.2017
+  Memory Pressure: 134.2
+  Io Throughput Mb: 126.3
+  Network Latency Ms: 1.13
+  Thermal Risk: False
+  Power Surge: False
+  Critical Path: True
+  Dynamic Adjustment: True
+
+PID: 1012
+  Pid: 1012
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 0.87
+  Exec State: ready
+  Predicted Latency Ms: 0.49
+  Resource Allocation: 85.77
+  Io Priority: 0
+  Network Bandwidth Mb: 114.2
+  Cache Efficiency: 85.23
+  Thermal Threshold: 99.12
+  Power Efficiency: 7342.77
+  Deadline Compliance: False
+  Dependency Status: True
+  Error Impact: 4.68
+  Retry Success: True
+  Queue Delay Ms: 40
+  Preempt Frequency: 0.0
+  Affinity Score: 0.13333333333333333
+  Execution Window Ms: 7018
+  Load Factor: 0.52
+  Instruction Per Cycle: 1.6546
+  Memory Pressure: 164.7
+  Io Throughput Mb: 1.67
+  Network Latency Ms: 2.35
+  Thermal Risk: True
+  Power Surge: False
+  Critical Path: True
+  Dynamic Adjustment: True
+
+PID: 1013
+  Pid: 1013
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 0.96
+  Exec State: pending
+  Predicted Latency Ms: 0.53
+  Resource Allocation: 37.02
+  Io Priority: 2
+  Network Bandwidth Mb: 65.2
+  Cache Efficiency: 61.81
+  Thermal Threshold: 73.88
+  Power Efficiency: 43382.16
+  Deadline Compliance: False
+  Dependency Status: False
+  Error Impact: 0.19
+  Retry Success: False
+  Queue Delay Ms: 10
+  Preempt Frequency: 0.0
+  Affinity Score: 0.6
+  Execution Window Ms: 7412
+  Load Factor: 0.39
+  Instruction Per Cycle: 0.3055
+  Memory Pressure: 56.9
+  Io Throughput Mb: 9.69
+  Network Latency Ms: 0.29
+  Thermal Risk: False
+  Power Surge: False
+  Critical Path: False
+  Dynamic Adjustment: True
+
+PID: 1014
+  Pid: 1014
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 0.85
+  Exec State: pending
+  Predicted Latency Ms: 0.47
+  Resource Allocation: 57.29
+  Io Priority: 3
+  Network Bandwidth Mb: 77.2
+  Cache Efficiency: 58.37
+  Thermal Threshold: 92.88
+  Power Efficiency: 5873.42
+  Deadline Compliance: True
+  Dependency Status: False
+  Error Impact: 1.05
+  Retry Success: True
+  Queue Delay Ms: 30
+  Preempt Frequency: 2.857142857142857
+  Affinity Score: 0.6666666666666666
+  Execution Window Ms: 13373
+  Load Factor: 0.62
+  Instruction Per Cycle: 4.0051
+  Memory Pressure: 110.0
+  Io Throughput Mb: 38.76
+  Network Latency Ms: 0.27
+  Thermal Risk: True
+  Power Surge: False
+  Critical Path: False
+  Dynamic Adjustment: True
+
+PID: 1015
+  Pid: 1015
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 1.12
+  Exec State: pending
+  Predicted Latency Ms: 0.61
+  Resource Allocation: 96.13
+  Io Priority: 1
+  Network Bandwidth Mb: 133.6
+  Cache Efficiency: 91.43
+  Thermal Threshold: 75.12
+  Power Efficiency: 20175.66
+  Deadline Compliance: False
+  Dependency Status: False
+  Error Impact: 0.77
+  Retry Success: True
+  Queue Delay Ms: 120
+  Preempt Frequency: 0.0
+  Affinity Score: 0.8666666666666667
+  Execution Window Ms: 9783
+  Load Factor: 0.33
+  Instruction Per Cycle: 0.1098
+  Memory Pressure: 184.6
+  Io Throughput Mb: 4.28
+  Network Latency Ms: 0.37
+  Thermal Risk: False
+  Power Surge: False
+  Critical Path: False
+  Dynamic Adjustment: True
+
+PID: 1016
+  Pid: 1016
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 1.34
+  Exec State: running
+  Predicted Latency Ms: 0.72
+  Resource Allocation: 32.8
+  Io Priority: 6
+  Network Bandwidth Mb: 34.3
+  Cache Efficiency: 80.0
+  Thermal Threshold: 62.25
+  Power Efficiency: 2862.73
+  Deadline Compliance: True
+  Dependency Status: False
+  Error Impact: 3.16
+  Retry Success: False
+  Queue Delay Ms: 160
+  Preempt Frequency: 2.544529262086514
+  Affinity Score: 0.8
+  Execution Window Ms: 5348
+  Load Factor: 0.19
+  Instruction Per Cycle: 1.1563
+  Memory Pressure: 126.0
+  Io Throughput Mb: 32.61
+  Network Latency Ms: 2.54
+  Thermal Risk: False
+  Power Surge: False
+  Critical Path: True
+  Dynamic Adjustment: True
+
+PID: 1017
+  Pid: 1017
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 0.66
+  Exec State: running
+  Predicted Latency Ms: 0.38
+  Resource Allocation: 81.32
+  Io Priority: 7
+  Network Bandwidth Mb: 29.9
+  Cache Efficiency: 95.56
+  Thermal Threshold: 94.75
+  Power Efficiency: 14375.36
+  Deadline Compliance: True
+  Dependency Status: False
+  Error Impact: 3.58
+  Retry Success: False
+  Queue Delay Ms: 0
+  Preempt Frequency: 3.007518796992481
+  Affinity Score: 0.2
+  Execution Window Ms: 10081
+  Load Factor: 0.26
+  Instruction Per Cycle: 1.4105
+  Memory Pressure: 156.1
+  Io Throughput Mb: 37.5
+  Network Latency Ms: 4.83
+  Thermal Risk: True
+  Power Surge: False
+  Critical Path: True
+  Dynamic Adjustment: True
+
+PID: 1018
+  Pid: 1018
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 1.05
+  Exec State: running
+  Predicted Latency Ms: 0.58
+  Resource Allocation: 20.51
+  Io Priority: 6
+  Network Bandwidth Mb: 50.3
+  Cache Efficiency: 80.61
+  Thermal Threshold: 90.12
+  Power Efficiency: 31915.1
+  Deadline Compliance: True
+  Dependency Status: True
+  Error Impact: 2.37
+  Retry Success: False
+  Queue Delay Ms: 40
+  Preempt Frequency: 0.5235602094240838
+  Affinity Score: 0.06666666666666667
+  Execution Window Ms: 13677
+  Load Factor: 0.47
+  Instruction Per Cycle: 0.1022
+  Memory Pressure: 52.5
+  Io Throughput Mb: 40.14
+  Network Latency Ms: 1.0
+  Thermal Risk: True
+  Power Surge: False
+  Critical Path: True
+  Dynamic Adjustment: True
+
+PID: 1019
+  Pid: 1019
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 0.97
+  Exec State: running
+  Predicted Latency Ms: 0.53
+  Resource Allocation: 89.23
+  Io Priority: 7
+  Network Bandwidth Mb: 136.6
+  Cache Efficiency: 87.31
+  Thermal Threshold: 82.12
+  Power Efficiency: 28067.0
+  Deadline Compliance: True
+  Dependency Status: True
+  Error Impact: 4.32
+  Retry Success: False
+  Queue Delay Ms: 0
+  Preempt Frequency: 0.0
+  Affinity Score: 0.3333333333333333
+  Execution Window Ms: 13268
+  Load Factor: 0.56
+  Instruction Per Cycle: 0.2279
+  Memory Pressure: 342.6
+  Io Throughput Mb: 26.84
   Network Latency Ms: 0.77
   Thermal Risk: False
   Power Surge: False
   Critical Path: False
-  Dynamic Adjustment: False
+  Dynamic Adjustment: True
 
-PID: 1004
-  Pid: 1004
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.36
+PID: 1020
+  Pid: 1020
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 0.62
   Exec State: running
-  Predicted Latency Ms: 0.73
-  Resource Allocation: 56.99
-  Io Priority: 6
-  Network Bandwidth Mb: 26.2
-  Cache Efficiency: 94.88
-  Thermal Threshold: 63.62
-  Power Efficiency: 33716.19
-  Deadline Compliance: True
-  Dependency Status: False
-  Error Impact: 1.58
-  Retry Success: True
-  Queue Delay Ms: 170
-  Preempt Frequency: 0.0
-  Affinity Score: 0.3333333333333333
-  Execution Window Ms: 1047
-  Load Factor: 0.76
-  Instruction Per Cycle: 0.4978
-  Memory Pressure: 218.8
-  Io Throughput Mb: 30.44
-  Network Latency Ms: 0.55
-  Thermal Risk: False
-  Power Surge: False
-  Critical Path: False
-  Dynamic Adjustment: False
-
-PID: 1005
-  Pid: 1005
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.2
-  Exec State: ready
-  Predicted Latency Ms: 0.65
-  Resource Allocation: 24.36
-  Io Priority: 9
-  Network Bandwidth Mb: 140.6
-  Cache Efficiency: 83.01
-  Thermal Threshold: 68.25
-  Power Efficiency: 26818.54
-  Deadline Compliance: True
-  Dependency Status: False
-  Error Impact: 2.38
-  Retry Success: True
-  Queue Delay Ms: 160
-  Preempt Frequency: 0.0
-  Affinity Score: 0.8666666666666667
-  Execution Window Ms: 11286
-  Load Factor: 0.91
-  Instruction Per Cycle: 0.2402
-  Memory Pressure: 93.5
-  Io Throughput Mb: 30.57
-  Network Latency Ms: 0.59
-  Thermal Risk: False
-  Power Surge: False
-  Critical Path: True
-  Dynamic Adjustment: False
-
-PID: 1006
-  Pid: 1006
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.45
-  Exec State: ready
-  Predicted Latency Ms: 0.77
-  Resource Allocation: 12.71
-  Io Priority: 9
-  Network Bandwidth Mb: 92.8
-  Cache Efficiency: 63.57
-  Thermal Threshold: 68.12
-  Power Efficiency: 8419.07
-  Deadline Compliance: True
-  Dependency Status: False
-  Error Impact: 2.47
-  Retry Success: False
-  Queue Delay Ms: 0
-  Preempt Frequency: 0.7784120394395433
-  Affinity Score: 0.6
-  Execution Window Ms: 11053
-  Load Factor: 1.44
-  Instruction Per Cycle: 1.0791
-  Memory Pressure: 97.6
-  Io Throughput Mb: 29.45
-  Network Latency Ms: 1.61
-  Thermal Risk: False
-  Power Surge: False
-  Critical Path: True
-  Dynamic Adjustment: False
-
-PID: 1007
-  Pid: 1007
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 0.91
-  Exec State: running
-  Predicted Latency Ms: 0.51
-  Resource Allocation: 67.46
+  Predicted Latency Ms: 0.36
+  Resource Allocation: 55.76
   Io Priority: 5
-  Network Bandwidth Mb: 74.5
-  Cache Efficiency: 84.44
-  Thermal Threshold: 58.75
-  Power Efficiency: 48382.43
+  Network Bandwidth Mb: 122.2
+  Cache Efficiency: 53.19
+  Thermal Threshold: 88.88
+  Power Efficiency: 4628.46
   Deadline Compliance: True
-  Dependency Status: False
-  Error Impact: 4.85
+  Dependency Status: True
+  Error Impact: 3.8
   Retry Success: False
-  Queue Delay Ms: 100
-  Preempt Frequency: 0.0
-  Affinity Score: 0.8
-  Execution Window Ms: 9963
-  Load Factor: 0.37
-  Instruction Per Cycle: 0.5055
-  Memory Pressure: 259.1
-  Io Throughput Mb: 17.98
-  Network Latency Ms: 12.08
-  Thermal Risk: False
-  Power Surge: False
-  Critical Path: False
-  Dynamic Adjustment: False
-
-PID: 1008
-  Pid: 1008
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.05
-  Exec State: ready
-  Predicted Latency Ms: 0.58
-  Resource Allocation: 44.01
-  Io Priority: 4
-  Network Bandwidth Mb: 151.3
-  Cache Efficiency: 64.38
-  Thermal Threshold: 85.0
-  Power Efficiency: 13698.76
-  Deadline Compliance: True
-  Dependency Status: False
-  Error Impact: 4.54
-  Retry Success: False
-  Queue Delay Ms: 10
-  Preempt Frequency: 0.8301051466519093
-  Affinity Score: 0.13333333333333333
-  Execution Window Ms: 4623
-  Load Factor: 0.44
-  Instruction Per Cycle: 0.7115
-  Memory Pressure: 338.0
-  Io Throughput Mb: 17.45
-  Network Latency Ms: 0.54
-  Thermal Risk: False
+  Queue Delay Ms: 80
+  Preempt Frequency: 1.1074197120708749
+  Affinity Score: 0.4666666666666667
+  Execution Window Ms: 10254
+  Load Factor: 0.04
+  Instruction Per Cycle: 1.3143
+  Memory Pressure: 107.0
+  Io Throughput Mb: 28.9
+  Network Latency Ms: 1.43
+  Thermal Risk: True
   Power Surge: True
   Critical Path: False
-  Dynamic Adjustment: False
+  Dynamic Adjustment: True
 
-PID: 1009
-  Pid: 1009
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.17
-  Exec State: ready
-  Predicted Latency Ms: 0.63
-  Resource Allocation: 74.26
-  Io Priority: 1
-  Network Bandwidth Mb: 55.0
-  Cache Efficiency: 81.79
-  Thermal Threshold: 98.87
-  Power Efficiency: 26497.1
+PID: 1021
+  Pid: 1021
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 1.32
+  Exec State: running
+  Predicted Latency Ms: 0.71
+  Resource Allocation: 6.76
+  Io Priority: 9
+  Network Bandwidth Mb: 88.7
+  Cache Efficiency: 86.85
+  Thermal Threshold: 64.25
+  Power Efficiency: 15335.04
   Deadline Compliance: False
-  Dependency Status: True
-  Error Impact: 2.74
+  Dependency Status: False
+  Error Impact: 3.21
   Retry Success: True
-  Queue Delay Ms: 30
-  Preempt Frequency: 1.0141987829614605
-  Affinity Score: 0.13333333333333333
-  Execution Window Ms: 11630
-  Load Factor: 1.11
-  Instruction Per Cycle: 0.1344
-  Memory Pressure: 190.1
-  Io Throughput Mb: 3.07
-  Network Latency Ms: 0.05
+  Queue Delay Ms: 80
+  Preempt Frequency: 1.3508949679162445
+  Affinity Score: 0.3333333333333333
+  Execution Window Ms: 12428
+  Load Factor: 1.43
+  Instruction Per Cycle: 0.4316
+  Memory Pressure: 17.3
+  Io Throughput Mb: 20.62
+  Network Latency Ms: 2.7
+  Thermal Risk: False
+  Power Surge: True
+  Critical Path: True
+  Dynamic Adjustment: True
+
+PID: 1022
+  Pid: 1022
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 0.9
+  Exec State: pending
+  Predicted Latency Ms: 0.5
+  Resource Allocation: 11.34
+  Io Priority: 1
+  Network Bandwidth Mb: 111.2
+  Cache Efficiency: 70.98
+  Thermal Threshold: 94.62
+  Power Efficiency: 14263.81
+  Deadline Compliance: True
+  Dependency Status: False
+  Error Impact: 0.45
+  Retry Success: True
+  Queue Delay Ms: 10
+  Preempt Frequency: 1.5432098765432098
+  Affinity Score: 0.6
+  Execution Window Ms: 15964
+  Load Factor: 0.38
+  Instruction Per Cycle: 1.5578
+  Memory Pressure: 43.5
+  Io Throughput Mb: 7.67
+  Network Latency Ms: 0.83
   Thermal Risk: True
   Power Surge: False
-  Critical Path: False
-  Dynamic Adjustment: False
-
-PID: 1010
-  Pid: 1010
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.43
-  Exec State: running
-  Predicted Latency Ms: 0.77
-  Resource Allocation: 6.05
-  Io Priority: 6
-  Network Bandwidth Mb: 49.0
-  Cache Efficiency: 85.66
-  Thermal Threshold: 86.75
-  Power Efficiency: 16930.61
-  Deadline Compliance: True
-  Dependency Status: False
-  Error Impact: 2.38
-  Retry Success: False
-  Queue Delay Ms: 150
-  Preempt Frequency: 1.1534025374855825
-  Affinity Score: 0.7333333333333333
-  Execution Window Ms: 12021
-  Load Factor: 0.44
-  Instruction Per Cycle: 0.6708
-  Memory Pressure: 46.5
-  Io Throughput Mb: 16.04
-  Network Latency Ms: 0.52
-  Thermal Risk: False
-  Power Surge: False
   Critical Path: True
-  Dynamic Adjustment: False
+  Dynamic Adjustment: True
 
-PID: 1011
-  Pid: 1011
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.26
-  Exec State: running
-  Predicted Latency Ms: 0.68
-  Resource Allocation: 42.28
-  Io Priority: 9
-  Network Bandwidth Mb: 40.0
-  Cache Efficiency: 88.04
-  Thermal Threshold: 77.38
-  Power Efficiency: 20187.65
-  Deadline Compliance: True
-  Dependency Status: False
-  Error Impact: 0.09
-  Retry Success: True
-  Queue Delay Ms: 170
-  Preempt Frequency: 0.29691211401425177
-  Affinity Score: 0.26666666666666666
-  Execution Window Ms: 10289
-  Load Factor: 1.11
-  Instruction Per Cycle: 0.5819
-  Memory Pressure: 162.3
-  Io Throughput Mb: 25.57
-  Network Latency Ms: 2.27
-  Thermal Risk: False
-  Power Surge: False
-  Critical Path: True
-  Dynamic Adjustment: False
-
-PID: 1012
-  Pid: 1012
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.39
-  Exec State: running
-  Predicted Latency Ms: 0.74
-  Resource Allocation: 95.94
-  Io Priority: 8
-  Network Bandwidth Mb: 108.9
-  Cache Efficiency: 88.27
-  Thermal Threshold: 54.75
-  Power Efficiency: 24403.11
-  Deadline Compliance: True
-  Dependency Status: False
-  Error Impact: 1.84
-  Retry Success: True
-  Queue Delay Ms: 0
-  Preempt Frequency: 1.4044943820224718
-  Affinity Score: 0.7333333333333333
-  Execution Window Ms: 9173
-  Load Factor: 1.56
-  Instruction Per Cycle: 0.231
-  Memory Pressure: 184.2
-  Io Throughput Mb: 38.72
-  Network Latency Ms: 0.46
-  Thermal Risk: False
-  Power Surge: False
-  Critical Path: False
-  Dynamic Adjustment: False
-
-PID: 1013
-  Pid: 1013
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 0.84
+PID: 1023
+  Pid: 1023
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 1.11
   Exec State: pending
-  Predicted Latency Ms: 0.47
-  Resource Allocation: 36.09
-  Io Priority: 1
-  Network Bandwidth Mb: 104.0
-  Cache Efficiency: 79.64
-  Thermal Threshold: 53.75
-  Power Efficiency: 5969.17
+  Predicted Latency Ms: 0.6
+  Resource Allocation: 12.42
+  Io Priority: 2
+  Network Bandwidth Mb: 115.5
+  Cache Efficiency: 63.62
+  Thermal Threshold: 99.0
+  Power Efficiency: 9214.26
   Deadline Compliance: False
-  Dependency Status: True
-  Error Impact: 2.92
-  Retry Success: True
-  Queue Delay Ms: 110
-  Preempt Frequency: 0.5151983513652756
-  Affinity Score: 0.2
-  Execution Window Ms: 9984
-  Load Factor: 0.05
-  Instruction Per Cycle: 1.0167
-  Memory Pressure: 92.4
-  Io Throughput Mb: 4.72
-  Network Latency Ms: 2.18
-  Thermal Risk: False
-  Power Surge: True
-  Critical Path: False
-  Dynamic Adjustment: False
-
-PID: 1014
-  Pid: 1014
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.23
-  Exec State: ready
-  Predicted Latency Ms: 0.67
-  Resource Allocation: 88.42
-  Io Priority: 0
-  Network Bandwidth Mb: 118.9
-  Cache Efficiency: 87.51
-  Thermal Threshold: 75.5
-  Power Efficiency: 12515.62
-  Deadline Compliance: True
   Dependency Status: False
-  Error Impact: 0.5
-  Retry Success: False
-  Queue Delay Ms: 150
-  Preempt Frequency: 0.9535918626827719
-  Affinity Score: 0.9333333333333333
-  Execution Window Ms: 2528
-  Load Factor: 0.16
-  Instruction Per Cycle: 0.4171
-  Memory Pressure: 226.4
-  Io Throughput Mb: 1.41
-  Network Latency Ms: 1.17
-  Thermal Risk: False
+  Error Impact: 1.18
+  Retry Success: True
+  Queue Delay Ms: 30
+  Preempt Frequency: 1.2940795858945324
+  Affinity Score: 0.26666666666666666
+  Execution Window Ms: 9578
+  Load Factor: 0.94
+  Instruction Per Cycle: 0.9854
+  Memory Pressure: 23.9
+  Io Throughput Mb: 7.72
+  Network Latency Ms: 1.15
+  Thermal Risk: True
   Power Surge: True
   Critical Path: False
-  Dynamic Adjustment: False
+  Dynamic Adjustment: True
 
-PID: 1015
-  Pid: 1015
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.41
+PID: 1024
+  Pid: 1024
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 1.35
   Exec State: ready
-  Predicted Latency Ms: 0.76
-  Resource Allocation: 11.05
+  Predicted Latency Ms: 0.73
+  Resource Allocation: 21.74
   Io Priority: 9
-  Network Bandwidth Mb: 151.6
-  Cache Efficiency: 72.56
-  Thermal Threshold: 84.5
-  Power Efficiency: 18332.53
-  Deadline Compliance: True
+  Network Bandwidth Mb: 86.6
+  Cache Efficiency: 78.37
+  Thermal Threshold: 57.25
+  Power Efficiency: 9998.13
+  Deadline Compliance: False
   Dependency Status: False
-  Error Impact: 0.96
-  Retry Success: False
-  Queue Delay Ms: 170
-  Preempt Frequency: 0.0
-  Affinity Score: 0.7333333333333333
-  Execution Window Ms: 11991
-  Load Factor: 0.22
-  Instruction Per Cycle: 0.3651
-  Memory Pressure: 17.0
-  Io Throughput Mb: 32.65
-  Network Latency Ms: 0.68
-  Thermal Risk: False
-  Power Surge: False
-  Critical Path: False
-  Dynamic Adjustment: False
-
-PID: 1016
-  Pid: 1016
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 0.72
-  Exec State: ready
-  Predicted Latency Ms: 0.41
-  Resource Allocation: 7.15
-  Io Priority: 6
-  Network Bandwidth Mb: 21.9
-  Cache Efficiency: 61.26
-  Thermal Threshold: 81.5
-  Power Efficiency: 10954.81
-  Deadline Compliance: True
-  Dependency Status: False
-  Error Impact: 1.28
-  Retry Success: False
-  Queue Delay Ms: 120
-  Preempt Frequency: 0.0
-  Affinity Score: 0.6
-  Execution Window Ms: 11024
-  Load Factor: 0.06
-  Instruction Per Cycle: 1.0786
-  Memory Pressure: 27.4
-  Io Throughput Mb: 37.68
-  Network Latency Ms: 0.13
-  Thermal Risk: False
-  Power Surge: False
-  Critical Path: False
-  Dynamic Adjustment: False
-
-PID: 1017
-  Pid: 1017
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.29
-  Exec State: ready
-  Predicted Latency Ms: 0.7
-  Resource Allocation: 86.74
-  Io Priority: 5
-  Network Bandwidth Mb: 124.0
-  Cache Efficiency: 43.56
-  Thermal Threshold: 85.62
-  Power Efficiency: 39492.62
-  Deadline Compliance: True
-  Dependency Status: True
-  Error Impact: 1.82
+  Error Impact: 2.09
   Retry Success: True
-  Queue Delay Ms: 150
-  Preempt Frequency: 0.6763611768684478
-  Affinity Score: 0.8
-  Execution Window Ms: 5017
-  Load Factor: 0.63
-  Instruction Per Cycle: 0.2638
-  Memory Pressure: 333.1
-  Io Throughput Mb: 12.94
+  Queue Delay Ms: 120
+  Preempt Frequency: 0.25753283543651817
+  Affinity Score: 0.5333333333333333
+  Execution Window Ms: 4601
+  Load Factor: 0.2
+  Instruction Per Cycle: 0.6763
+  Memory Pressure: 55.7
+  Io Throughput Mb: 24.19
   Network Latency Ms: 0.51
   Thermal Risk: False
   Power Surge: False
   Critical Path: False
-  Dynamic Adjustment: False
-
-PID: 1018
-  Pid: 1018
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.12
-  Exec State: pending
-  Predicted Latency Ms: 0.61
-  Resource Allocation: 28.75
-  Io Priority: 2
-  Network Bandwidth Mb: 82.3
-  Cache Efficiency: 85.57
-  Thermal Threshold: 55.38
-  Power Efficiency: 41835.87
-  Deadline Compliance: True
-  Dependency Status: True
-  Error Impact: 0.18
-  Retry Success: True
-  Queue Delay Ms: 20
-  Preempt Frequency: 1.2014417300760913
-  Affinity Score: 0.8666666666666667
-  Execution Window Ms: 9419
-  Load Factor: 1.04
-  Instruction Per Cycle: 0.8966
-  Memory Pressure: 44.2
-  Io Throughput Mb: 4.91
-  Network Latency Ms: 0.28
-  Thermal Risk: False
-  Power Surge: False
-  Critical Path: False
-  Dynamic Adjustment: False
-
-PID: 1019
-  Pid: 1019
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.14
-  Exec State: running
-  Predicted Latency Ms: 0.62
-  Resource Allocation: 44.51
-  Io Priority: 5
-  Network Bandwidth Mb: 108.7
-  Cache Efficiency: 85.43
-  Thermal Threshold: 95.88
-  Power Efficiency: 11757.76
-  Deadline Compliance: True
-  Dependency Status: False
-  Error Impact: 1.0
-  Retry Success: True
-  Queue Delay Ms: 50
-  Preempt Frequency: 1.4763779527559056
-  Affinity Score: 0.13333333333333333
-  Execution Window Ms: 6460
-  Load Factor: 0.69
-  Instruction Per Cycle: 0.1096
-  Memory Pressure: 341.8
-  Io Throughput Mb: 21.85
-  Network Latency Ms: 0.29
-  Thermal Risk: True
-  Power Surge: False
-  Critical Path: True
-  Dynamic Adjustment: False
-
-PID: 1020
-  Pid: 1020
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 0.66
-  Exec State: ready
-  Predicted Latency Ms: 0.38
-  Resource Allocation: 33.15
-  Io Priority: 5
-  Network Bandwidth Mb: 74.3
-  Cache Efficiency: 85.33
-  Thermal Threshold: 62.25
-  Power Efficiency: 18735.31
-  Deadline Compliance: True
-  Dependency Status: False
-  Error Impact: 4.39
-  Retry Success: True
-  Queue Delay Ms: 120
-  Preempt Frequency: 0.0
-  Affinity Score: 0.26666666666666666
-  Execution Window Ms: 9749
-  Load Factor: 0.04
-  Instruction Per Cycle: 0.7526
-  Memory Pressure: 254.6
-  Io Throughput Mb: 35.36
-  Network Latency Ms: 0.9
-  Thermal Risk: False
-  Power Surge: False
-  Critical Path: False
-  Dynamic Adjustment: False
-
-PID: 1021
-  Pid: 1021
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 0.97
-  Exec State: running
-  Predicted Latency Ms: 0.54
-  Resource Allocation: 53.12
-  Io Priority: 4
-  Network Bandwidth Mb: 81.9
-  Cache Efficiency: 89.64
-  Thermal Threshold: 71.0
-  Power Efficiency: 12322.86
-  Deadline Compliance: True
-  Dependency Status: False
-  Error Impact: 0.94
-  Retry Success: False
-  Queue Delay Ms: 140
-  Preempt Frequency: 2.2865853658536586
-  Affinity Score: 0.4666666666666667
-  Execution Window Ms: 3716
-  Load Factor: 0.6
-  Instruction Per Cycle: 0.1134
-  Memory Pressure: 136.0
-  Io Throughput Mb: 41.73
-  Network Latency Ms: 1.08
-  Thermal Risk: False
-  Power Surge: False
-  Critical Path: True
-  Dynamic Adjustment: False
-
-PID: 1022
-  Pid: 1022
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.0
-  Exec State: pending
-  Predicted Latency Ms: 0.55
-  Resource Allocation: 39.78
-  Io Priority: 3
-  Network Bandwidth Mb: 104.2
-  Cache Efficiency: 72.01
-  Thermal Threshold: 97.25
-  Power Efficiency: 19530.72
-  Deadline Compliance: True
-  Dependency Status: True
-  Error Impact: 2.49
-  Retry Success: True
-  Queue Delay Ms: 170
-  Preempt Frequency: 2.7662517289073305
-  Affinity Score: 0.4666666666666667
-  Execution Window Ms: 6924
-  Load Factor: 0.64
-  Instruction Per Cycle: 0.6691
-  Memory Pressure: 305.5
-  Io Throughput Mb: 29.9
-  Network Latency Ms: 0.32
-  Thermal Risk: True
-  Power Surge: False
-  Critical Path: True
-  Dynamic Adjustment: False
-
-PID: 1023
-  Pid: 1023
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.14
-  Exec State: ready
-  Predicted Latency Ms: 0.62
-  Resource Allocation: 25.63
-  Io Priority: 6
-  Network Bandwidth Mb: 20.3
-  Cache Efficiency: 93.58
-  Thermal Threshold: 65.0
-  Power Efficiency: 9960.15
-  Deadline Compliance: True
-  Dependency Status: True
-  Error Impact: 3.43
-  Retry Success: True
-  Queue Delay Ms: 70
-  Preempt Frequency: 0.0
-  Affinity Score: 0.26666666666666666
-  Execution Window Ms: 13087
-  Load Factor: 0.55
-  Instruction Per Cycle: 0.7501
-  Memory Pressure: 49.2
-  Io Throughput Mb: 26.65
-  Network Latency Ms: 0.16
-  Thermal Risk: False
-  Power Surge: False
-  Critical Path: True
-  Dynamic Adjustment: False
-
-PID: 1024
-  Pid: 1024
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 0.72
-  Exec State: running
-  Predicted Latency Ms: 0.41
-  Resource Allocation: 98.1
-  Io Priority: 4
-  Network Bandwidth Mb: 112.3
-  Cache Efficiency: 86.0
-  Thermal Threshold: 93.5
-  Power Efficiency: 10185.12
-  Deadline Compliance: True
-  Dependency Status: False
-  Error Impact: 0.25
-  Retry Success: False
-  Queue Delay Ms: 90
-  Preempt Frequency: 0.2664535038635758
-  Affinity Score: 0.4666666666666667
-  Execution Window Ms: 9558
-  Load Factor: 0.22
-  Instruction Per Cycle: 1.3564
-  Memory Pressure: 251.1
-  Io Throughput Mb: 17.49
-  Network Latency Ms: 0.54
-  Thermal Risk: True
-  Power Surge: False
-  Critical Path: True
-  Dynamic Adjustment: False
+  Dynamic Adjustment: True
 
 PID: 1025
   Pid: 1025
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 0.97
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 0.86
   Exec State: ready
-  Predicted Latency Ms: 0.53
-  Resource Allocation: 84.01
-  Io Priority: 9
-  Network Bandwidth Mb: 88.0
-  Cache Efficiency: 91.5
-  Thermal Threshold: 76.0
-  Power Efficiency: 19040.23
-  Deadline Compliance: True
+  Predicted Latency Ms: 0.48
+  Resource Allocation: 91.28
+  Io Priority: 6
+  Network Bandwidth Mb: 51.4
+  Cache Efficiency: 95.65
+  Thermal Threshold: 50.75
+  Power Efficiency: 10491.9
+  Deadline Compliance: False
   Dependency Status: False
-  Error Impact: 0.72
+  Error Impact: 1.96
   Retry Success: False
-  Queue Delay Ms: 60
-  Preempt Frequency: 0.8084074373484237
-  Affinity Score: 0.06666666666666667
-  Execution Window Ms: 6405
-  Load Factor: 0.13
-  Instruction Per Cycle: 0.0639
-  Memory Pressure: 161.3
-  Io Throughput Mb: 28.68
-  Network Latency Ms: 0.53
+  Queue Delay Ms: 0
+  Preempt Frequency: 0.47058823529411764
+  Affinity Score: 0.13333333333333333
+  Execution Window Ms: 12223
+  Load Factor: 0.42
+  Instruction Per Cycle: 1.0248
+  Memory Pressure: 350.5
+  Io Throughput Mb: 29.3
+  Network Latency Ms: 0.51
   Thermal Risk: False
-  Power Surge: True
-  Critical Path: True
-  Dynamic Adjustment: False
+  Power Surge: False
+  Critical Path: False
+  Dynamic Adjustment: True
 
 PID: 1026
   Pid: 1026
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 0.74
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 1.18
   Exec State: running
-  Predicted Latency Ms: 0.42
-  Resource Allocation: 83.41
-  Io Priority: 9
-  Network Bandwidth Mb: 46.6
-  Cache Efficiency: 97.41
-  Thermal Threshold: 94.38
-  Power Efficiency: 27430.45
+  Predicted Latency Ms: 0.64
+  Resource Allocation: 78.15
+  Io Priority: 4
+  Network Bandwidth Mb: 79.5
+  Cache Efficiency: 72.33
+  Thermal Threshold: 54.12
+  Power Efficiency: 12821.43
   Deadline Compliance: True
   Dependency Status: False
-  Error Impact: 1.28
-  Retry Success: True
-  Queue Delay Ms: 40
-  Preempt Frequency: 1.4423076923076923
-  Affinity Score: 0.06666666666666667
-  Execution Window Ms: 13121
-  Load Factor: 0.26
-  Instruction Per Cycle: 0.5898
-  Memory Pressure: 128.1
-  Io Throughput Mb: 19.64
-  Network Latency Ms: 1.59
-  Thermal Risk: True
+  Error Impact: 4.8
+  Retry Success: False
+  Queue Delay Ms: 120
+  Preempt Frequency: 1.5521924718665114
+  Affinity Score: 0.8
+  Execution Window Ms: 12859
+  Load Factor: 0.48
+  Instruction Per Cycle: 0.4271
+  Memory Pressure: 150.1
+  Io Throughput Mb: 15.43
+  Network Latency Ms: 0.06
+  Thermal Risk: False
   Power Surge: False
-  Critical Path: False
-  Dynamic Adjustment: False
+  Critical Path: True
+  Dynamic Adjustment: True
 
 PID: 1027
   Pid: 1027
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.21
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 1.13
   Exec State: running
-  Predicted Latency Ms: 0.66
-  Resource Allocation: 10.12
+  Predicted Latency Ms: 0.61
+  Resource Allocation: 17.3
   Io Priority: 7
-  Network Bandwidth Mb: 46.9
-  Cache Efficiency: 84.33
-  Thermal Threshold: 68.12
-  Power Efficiency: 35636.32
-  Deadline Compliance: False
+  Network Bandwidth Mb: 119.2
+  Cache Efficiency: 67.52
+  Thermal Threshold: 61.0
+  Power Efficiency: 9308.72
+  Deadline Compliance: True
   Dependency Status: False
-  Error Impact: 4.03
-  Retry Success: False
-  Queue Delay Ms: 10
-  Preempt Frequency: 0.0
-  Affinity Score: 0.8666666666666667
-  Execution Window Ms: 13950
-  Load Factor: 0.09
-  Instruction Per Cycle: 0.5951
-  Memory Pressure: 19.4
-  Io Throughput Mb: 16.42
-  Network Latency Ms: 0.29
+  Error Impact: 4.13
+  Retry Success: True
+  Queue Delay Ms: 30
+  Preempt Frequency: 1.5710919088766695
+  Affinity Score: 0.9333333333333333
+  Execution Window Ms: 12037
+  Load Factor: 0.23
+  Instruction Per Cycle: 0.3186
+  Memory Pressure: 44.3
+  Io Throughput Mb: 102.99
+  Network Latency Ms: 0.28
   Thermal Risk: False
   Power Surge: False
   Critical Path: True
-  Dynamic Adjustment: False
+  Dynamic Adjustment: True
 
 PID: 1028
   Pid: 1028
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.08
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 1.23
   Exec State: ready
-  Predicted Latency Ms: 0.59
-  Resource Allocation: 38.44
-  Io Priority: 3
-  Network Bandwidth Mb: 107.2
-  Cache Efficiency: 80.39
-  Thermal Threshold: 65.75
-  Power Efficiency: 34360.24
+  Predicted Latency Ms: 0.67
+  Resource Allocation: 96.47
+  Io Priority: 9
+  Network Bandwidth Mb: 69.2
+  Cache Efficiency: 64.38
+  Thermal Threshold: 90.62
+  Power Efficiency: 5665.23
   Deadline Compliance: True
   Dependency Status: False
-  Error Impact: 3.24
+  Error Impact: 0.37
   Retry Success: False
-  Queue Delay Ms: 70
-  Preempt Frequency: 0.0
-  Affinity Score: 0.9333333333333333
-  Execution Window Ms: 18262
-  Load Factor: 0.84
-  Instruction Per Cycle: 0.4938
-  Memory Pressure: 147.6
-  Io Throughput Mb: 13.24
-  Network Latency Ms: 2.08
-  Thermal Risk: False
-  Power Surge: False
+  Queue Delay Ms: 130
+  Preempt Frequency: 0.5577244841048522
+  Affinity Score: 0.8666666666666667
+  Execution Window Ms: 7914
+  Load Factor: 1.2
+  Instruction Per Cycle: 1.6173
+  Memory Pressure: 370.4
+  Io Throughput Mb: 47.31
+  Network Latency Ms: 1.67
+  Thermal Risk: True
+  Power Surge: True
   Critical Path: False
-  Dynamic Adjustment: False
+  Dynamic Adjustment: True
 
 PID: 1029
   Pid: 1029
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.32
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 1.33
   Exec State: pending
   Predicted Latency Ms: 0.71
-  Resource Allocation: 84.51
-  Io Priority: 1
-  Network Bandwidth Mb: 123.0
-  Cache Efficiency: 82.59
-  Thermal Threshold: 98.25
-  Power Efficiency: 41399.56
-  Deadline Compliance: True
+  Resource Allocation: 10.61
+  Io Priority: 3
+  Network Bandwidth Mb: 71.5
+  Cache Efficiency: 67.91
+  Thermal Threshold: 72.12
+  Power Efficiency: 55142.88
+  Deadline Compliance: False
   Dependency Status: False
-  Error Impact: 3.6
-  Retry Success: True
-  Queue Delay Ms: 70
-  Preempt Frequency: 0.30220610456331215
-  Affinity Score: 0.5333333333333333
-  Execution Window Ms: 7639
-  Load Factor: 0.16
-  Instruction Per Cycle: 0.097
-  Memory Pressure: 649.0
-  Io Throughput Mb: 7.44
-  Network Latency Ms: 0.28
-  Thermal Risk: True
+  Error Impact: 0.99
+  Retry Success: False
+  Queue Delay Ms: 110
+  Preempt Frequency: 0.8888888888888888
+  Affinity Score: 0.0
+  Execution Window Ms: 3596
+  Load Factor: 1.08
+  Instruction Per Cycle: 0.2206
+  Memory Pressure: 27.2
+  Io Throughput Mb: 8.58
+  Network Latency Ms: 0.25
+  Thermal Risk: False
   Power Surge: False
   Critical Path: True
-  Dynamic Adjustment: False
+  Dynamic Adjustment: True
 
 PID: 1030
   Pid: 1030
-  Time Slice: 800
-  Priority: 0
-  Sched Weight: 1.35
-  Exec State: ready
-  Predicted Latency Ms: 0.72
-  Resource Allocation: 80.1
+  Time Slice: 2200
+  Priority: 12
+  Sched Weight: 0.93
+  Exec State: running
+  Predicted Latency Ms: 0.51
+  Resource Allocation: 19.11
   Io Priority: 4
-  Network Bandwidth Mb: 21.6
-  Cache Efficiency: 94.64
-  Thermal Threshold: 59.88
-  Power Efficiency: 19958.82
+  Network Bandwidth Mb: 39.4
+  Cache Efficiency: 70.45
+  Thermal Threshold: 72.38
+  Power Efficiency: 13055.8
   Deadline Compliance: True
-  Dependency Status: True
-  Error Impact: 0.97
-  Retry Success: False
-  Queue Delay Ms: 40
-  Preempt Frequency: 0.951022349025202
-  Affinity Score: 0.13333333333333333
-  Execution Window Ms: 1222
-  Load Factor: 0.74
-  Instruction Per Cycle: 0.6851
-  Memory Pressure: 307.6
-  Io Throughput Mb: 24.48
-  Network Latency Ms: 0.34
+  Dependency Status: False
+  Error Impact: 3.24
+  Retry Success: True
+  Queue Delay Ms: 110
+  Preempt Frequency: 0.0
+  Affinity Score: 0.8
+  Execution Window Ms: 6799
+  Load Factor: 0.18
+  Instruction Per Cycle: 0.2864
+  Memory Pressure: 73.4
+  Io Throughput Mb: 69.79
+  Network Latency Ms: 8.28
   Thermal Risk: False
-  Power Surge: False
-  Critical Path: False
-  Dynamic Adjustment: False
+  Power Surge: True
+  Critical Path: True
+  Dynamic Adjustment: True
 
